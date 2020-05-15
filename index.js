@@ -1,7 +1,8 @@
 // Your code goes here
 document.addEventListener("DOMContentLoaded", function() {
   console.log("The DOM has loaded");
-  Text=document.getEl
+  Text=document.getElementById('text');
+  Text.textcontent=""
 });
  
 console.log(
